@@ -23,14 +23,14 @@ Create Time locked smart contracts where the time is sourced from a Chainlink or
       
 ## Overview
 ---
-Time Locked Smart Contract is a feature which allows users to send XDC payments to multiple rceivers. These conditional payments, sets the XDC aside and transfers it to receivers when the time is elapsed. 
+Time Locked Smart Contract is a feature which allows users to send XDC payments to multiple receivers. These conditional payments, sets the XDC aside and transfers it to receivers when the time is elapsed. 
 After the expiration time, only the intended receivers can get the locked up XDC.
 
 ![Time Locked Contarct](ui/public/time_locked_contract.png)
 
 ## Prerequisite
 ---
-This application requires integration of [XinFin](https://xinfin.org/) Network with [Chainlink](https://chain.link/). 
+This application requires integration of [XDC Network](https://xinfin.org/) Network with [Chainlink](https://chain.link/). 
 It is recommended to follow [XinFin-Chainlink](https://github.com/XinFinOrg/XinFin-ChainLink) guide and setup all the required applications which includes -   
 
 - Chainlink node
@@ -90,7 +90,7 @@ By the end of this step we should have following addresses -
 
 Before building or running the application following fields values should be replaced in **ui/src/assets/js/config.js**.
 
-**NOTE**: Network id **51** refers to XinFin Apothem network and **50** refers to XinFin Main network
+**NOTE**: Network id **51** refers to XDC Apothem network and **50** refers to XDC Main network
 
 - TLW_FACTORY_CONTRACT_ADDR
 - LINK_TOKEN_CONTRACT_ADDR
@@ -126,9 +126,9 @@ docker run -p 8080:8080 tlc
 
 ### Login
 ---
-- An account in [XinPay](https://chrome.google.com/webstore/detail/xinpay/bocpokimicclpaiekenaeelehdjllofo?hl=en) is required to access the application. Users will approve the transaction using XinPay.  
-- Make sure the address added in XinPay has sufficient XDC based on the network being used.
-- Add the Link token address in XinPay wallet and make sure there is sufficient LINK balance.
+- An account in [XDCPay](https://chrome.google.com/webstore/detail/xinpay/bocpokimicclpaiekenaeelehdjllofo?hl=en) is required to access the application. Users will approve the transaction using XDCPay.  
+- Make sure the address added in XDCPay has sufficient XDC based on the network being used.
+- Add the Link token address in XDCPay wallet and make sure there is sufficient LINK balance.
 
 ![Login](ui/public/login.png)
 
