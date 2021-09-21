@@ -1,6 +1,6 @@
 [![](https://explorer.xinfin.network/img/xdc-logo.png)](https://xinfin.org/)
 
-# Time Locked Smart Contarct
+# Time Locked Smart Contract
 ---
 Create Time locked smart contracts where the time is sourced from a Chainlink oracle.  A user would specify an amount of XDC to be locked up, a date and time at which the locked XDC will be released, and an address for the released XDC to be sent to.
 
@@ -22,10 +22,10 @@ Create Time locked smart contracts where the time is sourced from a Chainlink or
       
 ## Overview
 ---
-Time Locked Smart Contract is a feature which allows users to send XDC payments to multiple rceivers. These conditional payments, sets the XDC aside and transfers it to receivers when the time is elapsed. 
+Time Locked Smart Contract is a feature which allows users to send XDC payments to multiple receivers. These conditional payments, sets the XDC aside and transfers it to receivers when the time is elapsed. 
 After the expiration time, only the intended receivers can get the locked up XDC.
 
-![Time Locked Contarct](ui/public/time_locked_contract.png)
+![Time Locked Contract](ui/public/time_locked_contract.png)
 
 ## Prerequisite
 ---
@@ -40,7 +40,7 @@ It is recommended to follow [XinFin-Chainlink](https://github.com/XinFinOrg/XinF
 ## Tools & Technologies
 ---
 
-Following tools and technologies have been usse to develop Time Locked Smart Contract application -
+Following tools and technologies have been used to develop Time Locked Smart Contract application -
 
 - Node.js 12.8 - https://nodejs.org/en/
 - Vue.js 4.x - https://v3.vuejs.org/
@@ -89,7 +89,7 @@ By the end of this step we should have following addresses -
 
 Before building or running the application following fields values should be replaced in **ui/src/assets/js/config.js**.
 
-**NOTE**: Network id **51** refers to XinFin Apothem network and **50** refers to XinFin Main network
+**NOTE**: Network id **51** refers to XDC Apothem network and **50** refers to XDC Main network
 
 - TLW_FACTORY_CONTRACT_ADDR
 - LINK_TOKEN_CONTRACT_ADDR
@@ -125,9 +125,9 @@ docker run -p 8080:8080 tlc
 
 ### Login
 ---
-- An account in [XinPay](https://chrome.google.com/webstore/detail/xinpay/bocpokimicclpaiekenaeelehdjllofo?hl=en) is required to access the application. Users will approve the transaction using XinPay.  
-- Make sure the address added in XinPay has sufficient XDC based on the network being used.
-- Add the Link token address in XinPay wallet and make sure there is sufficient LINK balance.
+- An account in [XDCPAY](https://chrome.google.com/webstore/detail/xinpay/bocpokimicclpaiekenaeelehdjllofo?hl=en) is required to access the application. Users will approve the transaction using XDCPay.  
+- Make sure the address added in XDCPay has sufficient XDC based on the network being used.
+- Add the Link token address in XDCPay wallet and make sure there is sufficient LINK balance.
 
 ![Login](ui/public/login.png)
 
