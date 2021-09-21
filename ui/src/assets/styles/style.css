@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100&display=swap');
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    background-color: #eff3f6;
+}
+
+.menu-font, .menu-font > a {
+    font-weight: 600 !important;
+    color: #6c757e !important;
+    font-size: 14px !important;
+}
+
+.logo {
+    height: 53px;
+}
+
+.sub-header {
+    background-image: url(https://explorer.apothem.network/img/hero-gradient.png);
+    background-color: #21325b!important;
+    padding: 20px 0px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.display-8 {
+    font-size: 1.1rem;
+}
+
+.contract-inp-help, .contract-inp-header {
+    color: #ffffff;
+}
+
+.contract-inp-help {
+    font-size: 12px;
+}
+
+.header-ov {
+    margin-top: 85px;
+}
+
+.sw-btn-prev {
+    background-color: #7db7d2 !important;
+}
+
+.sw-btn-next {
+    background-color: #40aadc !important;
+}
+
+.sw-theme-dots>.nav .nav-link.inactive {
+    color: #f2f2f2;
+}
+
+.sw-theme-dots>.nav .nav-link.done {
+    color: #00ff00;
+}
+
+.sw-theme-dots>.nav .nav-link.active {
+    color: #4ed7ff!important;
+}
+
+.display-7 {
+    font-size: 2.0rem;
+}
+
+.display-8 {
+    font-size: 1.3rem;
+}
+
+.info-header {
+    font-size: .75rem;
+    color: #77838f;
+}
+
+.info-value {
+    font-size: .8rem;
+    color: #21325b ;
+}
+
+.info-icon {
+    font-size: 2.3rem;
+    color: cornflowerblue;
+}
+
+.info-text-area {
+    margin-left: 13px;
+    margin-top: 11px;
+}
+
+.em-search {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #40aadc;
+    border: 1px solid #40aadc;
+    color: white;
+}
+ 
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    /* line-height: 3; */
+}
+
+.btn-primary {
+    background-color: #40aadc;
+    border-color: #40aadc;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: rgb(248 252 255);;
+}
+
+.table {
+    font-size: 90%;
+}
+
+/* .table>:not(:last-child)>:last-child>* {
+    border-bottom-color: #ffffff;
+} */
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    color: #484848;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    color: #484848;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.vc-popover-content-wrapper {
+    z-index: 20000;
+}
