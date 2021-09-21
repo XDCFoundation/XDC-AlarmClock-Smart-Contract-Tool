@@ -1,7 +1,7 @@
 # XDC-Smart-Contract-Tool
 [![](https://explorer.xinfin.network/img/xdc-logo.png)](https://xinfin.org/)
 
-# Time Locked Smart Contarct
+# Time Locked Smart Contracts
 ---
 Create Time locked smart contracts where the time is sourced from a Chainlink oracle.  A user would specify an amount of XDC to be locked up, a date and time at which the locked XDC will be released, and an address for the released XDC to be sent to.
 
