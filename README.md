@@ -59,10 +59,10 @@ Following tools and technologies have been usse to develop Time Locked Smart Con
 Create an [Alarm Job](https://docs.chain.link/docs/chainlink-alarm-clock/) in Chainlink node. Steps to create Alarm Job -
 
 - Login to Chainlink node
-- Navgate to **Jobs** and click on **New Job**
+- Navigate to **Jobs** and click on **New Job**
 - Copy the job specification form **chainlink/alarm-job.json** file
 - Paste the contents into the **Json Spec** field and create the job 
-- Copy the newly created job id which we will be using later
+- Copy the newly created job ID which we will be using later
 
 ## Deploying Time Locked Contracts
 ---
