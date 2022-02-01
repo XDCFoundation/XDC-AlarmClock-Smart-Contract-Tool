@@ -3,7 +3,11 @@
 
 # Time Locked Smart Contracts
 ---
-Create Time locked smart contracts where the time is sourced from a Chainlink oracle.  A user would specify an amount of XDC to be locked up, a date and time at which the locked XDC will be released, and an address for the released XDC to be sent to.
+Create Time locked smart contracts where the time is sourced from a Chainlink oracle.  A user needs to specify the following to set up the smart contract:
+
+   * Amount of XDC to be locked in smart contract
+   * A date and time at which the locked XDC will be released by the smart contract
+   * XDC address where the XDC will be sent after it is released by the smart contract
 
 # Table of contents
 ---
@@ -23,8 +27,8 @@ Create Time locked smart contracts where the time is sourced from a Chainlink or
       
 ## Overview
 ---
-Time Locked Smart Contract is a feature which allows users to send XDC payments to multiple receivers. These conditional payments, sets the XDC aside and transfers it to receivers when the time is elapsed. 
-After the expiration time, only the intended receivers can get the locked up XDC.
+Time Locked Smart Contract is a feature which allows users to send XDC payments to multiple receivers. These conditional payments, sets the XDC aside and transfers it to receivers when the time has elapsed. 
+After the time has expired, only the intended receivers can get the locked up XDC.
 
 ![Time Locked Contarct](ui/public/time_locked_contract.png)
 
